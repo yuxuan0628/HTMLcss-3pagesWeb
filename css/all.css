@@ -62,7 +62,6 @@ table {
 /*首頁banner圖片*/
 .banner-index{
     margin-bottom: 58px; /*距離course之間*/
-    width: 1024px;
     height: 560px;
     background: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_index.png) right center;
     background-size: cover; /*背景佔滿整個版面不重複*/
@@ -352,7 +351,6 @@ table {
 
 .course-area .course-title .title-text{
     display:flex;
-    justify-content: space-between;
     align-items: flex-end;
 
 }
@@ -513,6 +511,12 @@ table {
     font-size: 18px;
 }
 
+.form input[type='submit']:hover {
+    background:white;
+    border: 2px solid #00cc99;
+    color: #00cc99;
+}
+
 .form input[type='submit']:active {
     background:white;
     color: #00cc99;
@@ -634,6 +638,10 @@ table {
 /*course.html-sing-in*/
 
 .sing-in{
+    margin: 0 auto;
+}
+
+.sing-in div{
     display: flex;
     justify-content: space-between;
     align-items: center;
